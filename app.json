@@ -1,28 +1,45 @@
 {
   "expo": {
-    "name": "Nubank",
-    "slug": "Nubank",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+   "name": "NuClone",
+   "icon": "./assets/icon.png",
+   "splash": {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"},
+   "version": "1.0.0",
+   "slug": "nubank-clone-course",
+   "ios": {
+     "bundleIdentifier": "com.ssitconsulting.nuclone",
+     "buildNumber": "1.0.0"
+   },
+   "android": {
+     "package": "com.ssitconsulting.nuclone",
+     "versionCode": 1
+   }
   }
 }
+
+// {
+//   "expo": {
+//     "name": "Nu-Clone",
+//     "slug": "nubank-clone",
+//     "version": "1.0.0",
+//     "orientation": "portrait",
+//     "icon": "./assets/icon.png",
+//     "splash": {
+//       "image": "./assets/splash.png",
+//       "resizeMode": "contain",
+//       "backgroundColor": "#ffffff"
+//     },
+//     "updates": {
+//       "fallbackToCacheTimeout": 0
+//     },
+//     "assetBundlePatterns": [
+//       "**/*"
+//     ],
+//     "android": {
+//       "package": "com.ssitconsulting.nubankapplicationtraining",
+//       "versionCode": 1
+//     }
+//   }
+// }
